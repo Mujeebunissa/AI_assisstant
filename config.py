@@ -1,19 +1,3 @@
+apikey = "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"
 
-apikey2 = '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'
-
-import os
-import openai
-
-openai.api_key = apikey2
-
-response = openai.ChatCompletion.create(
-    model="text-davinci-003",
-    messages='',
-    temperature=1,
-    max_tokens=256,
-    top_p=1,
-    frequency_penalty=0,
-    presence_penalty=0
-)
-
-print(response)
+gnews_apikey = '9ff5c7450a8746d4086508edd11a1754'
