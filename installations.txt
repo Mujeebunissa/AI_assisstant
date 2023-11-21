@@ -1,0 +1,19 @@
+pyttsx3
+openai
+os
+requests
+bs4
+webbrowser
+googlesearch-python
+pywhatkit
+smtplib
+email.message
+random
+pyQT5
+pyQT5tools
+speechRecognition
+json
+urllib3 or urllib.request
+datetime
+sys
+pillow
