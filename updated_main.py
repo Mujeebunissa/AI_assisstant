@@ -164,7 +164,7 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     # Make sure to give app access in your Google account
-    server.login('syedatasneem958@gmail.com', 'ozrh jbfx qqvl byku')
+    server.login('da23aivirtual@gmail.com','bkzm abtw zzqs mpjx')
     email = EmailMessage()
     email['From'] = 'Sender_Email'
     email['To'] = receiver
@@ -262,7 +262,7 @@ def get_upcoming_events():
     try:
         now = datetime.utcnow().isoformat() + 'Z'
         events_result = service.events().list(
-            calendarId='syedatasneem958@gmail.com',  # calendar ID
+            calendarId='mujeebunissa04gmail.com',  # calendar ID
             timeMin=now,
             maxResults=10,
             singleEvents=True,
